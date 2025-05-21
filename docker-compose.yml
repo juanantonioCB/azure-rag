@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  python-app:
+    image: my-python-image
+    volumes:
+      - my-python-app-data:/app/data
+    ports:
+      - "8000:8000"  # Example port mapping
+    environment:
+      - ENV_VAR=example
+
+volumes:
+  my-python-app-data:
