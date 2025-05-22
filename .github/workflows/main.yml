@@ -2,7 +2,7 @@ name: Trigger auto deployment for demo-container
 
 env:
   AZURE_CONTAINER_APP_NAME: demo-container
-  AZURE_GROUP_NAME: demo-container
+  AZURE_GROUP_NAME: prueba-concepto
   OPENAI_API_BASE: https://prueba-concepto-gpt.openai.azure.com/
   OPENAI_API_VERSION: 2024-12-01-preview
   SEARCH_SERVICE_NAME: https://servicio-busqueda.search.windows.net
