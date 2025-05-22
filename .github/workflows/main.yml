@@ -8,7 +8,7 @@ env:
   SEARCH_SERVICE_NAME: https://servicio-busqueda.search.windows.net
   SEARCH_INDEX_NAME: indice-rag
 
-  permissions:
+permissions:
     contents: read
     packages: write
 
