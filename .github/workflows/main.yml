@@ -8,6 +8,10 @@ env:
   SEARCH_SERVICE_NAME: https://servicio-busqueda.search.windows.net
   SEARCH_INDEX_NAME: indice-rag
 
+  permissions:
+    contents: read
+    packages: write
+
 # When this action will be executed
 on:
   # Automatically trigger it when detected changes in repo. Remove comments to enable
