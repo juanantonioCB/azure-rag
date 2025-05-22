@@ -64,7 +64,7 @@ jobs:
         run: echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
 
       - name: Deploy to containerapp
-        uses: azure/CLI@v1
+        uses: azure/CLI@v2.73.0
         with:
           inlineScript: |
             az config set extension.use_dynamic_install=yes_without_prompt
