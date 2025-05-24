@@ -10,4 +10,4 @@ COPY webapp/* /webapp
 
 ENTRYPOINT [ "uvicorn" ]
 
-CMD [ "--host", "0.0.0.0", "main:app" ]
+CMD [ "main:app", "--host", "0.0.0.0", "--port", "8000" ]
